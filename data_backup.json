@@ -1,0 +1,134 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$EL6UqjcgGoClcKbF4p7Qux$PK9N2xtoAxvcIPuE4v91mWW2fQMaq+ndt7UUGzJQzWw=",
+      "last_login": "2026-11-20T05:29:30.239Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-11-20T05:24:44.252Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 1,
+    "fields": {
+      "question_text": "1. 好きな教科は？",
+      "pub_date": "2026-11-20T05:30:01Z"
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 2,
+    "fields": {
+      "question_text": "2. 好きな色は？",
+      "pub_date": "2026-11-20T05:30:23Z"
+    }
+  },
+  {
+    "model": "main.question",
+    "pk": 5,
+    "fields": {
+      "question_text": "3. 好きな数字は？",
+      "pub_date": "2026-11-20T05:30:45Z"
+    }
+  },
+  {
+    "model": "main.choice",
+    "pk": 1,
+    "fields": {"question": 1, "choice_text": "国語", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 2,
+    "fields": {"question": 1, "choice_text": "数学", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 3,
+    "fields": {"question": 1, "choice_text": "英語", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 4,
+    "fields": {"question": 1, "choice_text": "理科", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 5,
+    "fields": {"question": 1, "choice_text": "社会", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 6,
+    "fields": {"question": 2, "choice_text": "赤", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 7,
+    "fields": {"question": 2, "choice_text": "青", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 8,
+    "fields": {"question": 2, "choice_text": "黄", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 9,
+    "fields": {"question": 2, "choice_text": "緑", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 10,
+    "fields": {"question": 5, "choice_text": "1", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 11,
+    "fields": {"question": 5, "choice_text": "2", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 13,
+    "fields": {"question": 5, "choice_text": "3", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 14,
+    "fields": {"question": 5, "choice_text": "4", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 15,
+    "fields": {"question": 5, "choice_text": "5", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 16,
+    "fields": {"question": 5, "choice_text": "6", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 17,
+    "fields": {"question": 5, "choice_text": "7", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 18,
+    "fields": {"question": 5, "choice_text": "8", "votes": 0}
+  },
+  {
+    "model": "main.choice",
+    "pk": 19,
+    "fields": {"question": 5, "choice_text": "9", "votes": 0}
+  }
+]
